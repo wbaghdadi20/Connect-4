@@ -16,7 +16,7 @@ Welcome to the Connect 4 AI project! Dive into the classic game with a twist —
 
 - **Special Feature**: MCTS has an added advantage — it continues its simulations even when it's not its turn. This "thinking ahead" feature allows it to gather more data and make better moves over time.
 
-- **Balance Factor**: The balance factor for MCTS is set at 1. It's a tunable parameter, so you can experiment with different values to potentially improve the AI's performance.
+- **Balance Factor**: The balance factor for MCTS is set at sqrt(2). It's a tunable parameter, so you can experiment with different values to potentially improve the AI's performance.
 
 ## Limitations
 
